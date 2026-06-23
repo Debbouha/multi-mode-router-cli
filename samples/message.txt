@@ -1,0 +1,21 @@
+Alice needs access to the production database.
+
+Review and approve the pull request by EOD.
+
+Investigate the timeout issue affecting the payment service.
+
+Update the API documentation before Friday.
+
+Fix the deployment issue blocking the release ASAP.
+
+Please validate the latest staging build and report any blockers.
+
+Rotate the expired SSL certificates on the gateway.
+
+Clean up unused Kubernetes resources in the dev environment.
+
+Follow up with the vendor regarding the integration delay.
+
+Prepare the release notes for version 2.4.0.
+
+can i count on you Bob

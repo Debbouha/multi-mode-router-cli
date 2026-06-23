@@ -1,0 +1,108 @@
+AI SOFTWARE ENGINEER – Junior or Experienced - job post
+TREKEA SAS
+75008 Paris
+De 41 574,71 € à 91 613,11 € par an - Stage
+TREKEA SAS
+75008 Paris
+De 41 574,71 € à 91 613,11 € par an
+Détails de l'emploi
+Salaire
+
+    De 41 574,71 € à 91 613,11 € par an
+
+Type de poste
+
+    Stage
+
+&nbsp;
+Lieu
+75008 Paris
+&nbsp;
+Description du poste
+
+AI SOFTWARE ENGINEER – Junior or Experienced
+
+Job Title: AI Software Engineer - Paris, France
+
+No. of Positions: 3
+
+Nature of Job: Full time
+
+We are looking for Software Engineers, ready to transform and become AI Software Engineering drivers. Join our growing team in Paris (Champs Elysees office) or in France to work on our fast-growing cloud-based SaaS solutions.
+
+We want you to learn the new world very fast. Use our top-of-the-line AI Assistants (Claude- and OpenAI-based) to:
+
+a) evolve our products,
+
+b) evolve the way in which we are using them to build software.
+
+You will progressively take ownership of products components and software technologies, growing into a technical leadership role. You’ll join a skilled team, working in an international and collaborative environment with lots of experience.
+
+Overall:
+
+    Learn to become an AI Software Engineer Assistants to produce the right code, the right build and code evolution processes in this new world
+    Use that to design, develop, and maintain Java/iOS/React features and microservices powering our FieldLogs SaaS platform.
+    Build secure, scalable, and high-performance APIs used by our backend and mobile field applications.
+    Work on data modeling, data mapping, and aviation/industrial data standards (traceability, audit logs, compliance).
+    Contribute to R&D topics, including configurable business logic, execution engines, and domain-specific components.
+    Ensure reliability, performance, and scalability in a cloud-native, SaaS environment.
+    Handle integration with external systems used by aviation and industrial clients.
+    Collaborate closely with mobile, QA, and functional teams through code reviews, testing, and agile delivery.
+    Progressively take ownership of technical topics and prepare for leadership responsibilities (mentoring, technical guidance, small project ownership).
+
+Your Qualifications:
+
+    Master’s degree (Bac+5) in Computer Science, Software Engineering, or equivalent.
+    2–4 years of experience in backend software development.
+    Strong expertise in Java, backend development, and microservices architectures.
+    Experience with API design, integration, and lifecycle management.
+    Solid understanding of data modeling and complex business workflows.
+    Experience or strong interest in SaaS, cloud platforms, and B2B products.
+    Interest or experience in aviation, regulated, or industrial environments (compliance, traceability, auditability) is a strong plus.
+    Exposure to domain-specific languages, rule engines, or interpreters is a plus.
+    Awareness of UX/UI constraints for mobile or field-based applications is appreciated.
+    Interest in technical ownership, R&D challenges, and leadership growth.
+    Passion for delivering reliable, production-ready code in real-world environments.
+    Fluent in English (spoken & written).
+    Comfortable working in multicultural, international teams.
+    Strong communication, analytical thinking, and problem-solving skills.
+
+We offer a competitive compensation package depending on your profile. You will have a unique opportunity of being part of a young and fast-growing team where you can make your mark. This may include taking over and growing our service delivery for a marquee customer depending on your experience, skills, and drive. Compensation to be commensurate to your experience.
+
+Location:
+
+34 avenue des Champs-Elysées 75008 Paris, France
+Occasional travel to client sites may be required.
+
+Contact: join-us@trekea.com
+
+About the Company:
+
+We design and market “FieldLogs,” an open Cloud, Mobile and Wearable platform used to digitize a wide set of enterprise technician-driven processes (Aviation, Oil&Gas, Asset Management, etc.). We are an SME based in Paris, France, India (Virtual) and Minneapolis, USA with mostly large international clients.
+
+Our high-tech innovation in modern technologies is what makes us win. We are experiencing rapid growth internationally (USA, Europe & IN). See us at www.fieldlogs.com.
+
+Trekea is an equal opportunity employer, and we’re proud of our ongoing efforts to foster global diversity, equity, & inclusion in the workplace. Individuals seeking employment at Trekea are considered without regard to race, color, religion, national origin, age, sex, gender, gender identity, gender expression, sexual orientation, marital status, medical condition, ancestry, physical or mental disability, military or veteran status, or any other characteristic protected by applicable law.
+
+Job Type: Internship
+Contract length: 6 months
+
+Pay: 41,574.71€ - 91,613.11€ per year
+
+Ability to commute/relocate:
+
+    75008 Paris: Reliably commute or planning to relocate before starting work (Required)
+
+Education:
+
+    Master's (Required)
+
+Experience:
+
+    Software Engineering: 2 years (Required)
+
+Language:
+
+    English (Required)
+
+Work Location: In person
