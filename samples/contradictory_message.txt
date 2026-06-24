@@ -1,0 +1,9 @@
+Bonjour,
+
+Il faudrait organiser la semaine prochaine de manière plus efficace. Commence par finaliser le rapport mensuel avant vendredi et préparer la présentation destinée au client principal. Pense également à contacter l’équipe produit afin de valider les dernières modifications demandées.
+
+Par ailleurs, j’aimerais cuisiner quelque chose ce week-end. J’ai des tomates, des courgettes, des oignons et du fromage de chèvre. Peux-tu me proposer une recette simple avec la liste des ingrédients, les étapes de préparation et le temps de cuisson ?
+
+Enfin, n’oublie pas de créer les tickets Jira pour les trois anomalies identifiées lors de la dernière réunion, de mettre à jour la documentation technique et de vérifier que les sauvegardes automatiques fonctionnent correctement.
+
+Merci.

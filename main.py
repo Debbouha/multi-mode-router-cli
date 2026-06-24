@@ -2,27 +2,26 @@ import sys
 
 from pydantic import ValidationError
 
-from models import JobOfferAnalysis, TaskExtraction
+from models import JobOfferAnalysis, TaskExtraction, Recipe
 from llm_client import generate_schema_response
-from prompts import build_job_offer_prompt, build_task_prompt
+from prompts import build_job_offer_prompt, build_task_prompt, build_recipe_prompt
 from display import display_result
+from router import route_input
 
 
 MODE = {
-    "job_offer": (JobOfferAnalysis, build_job_offer_prompt),
-    "task": (TaskExtraction, build_task_prompt),
+    "job_offer_analysis": (JobOfferAnalysis, build_job_offer_prompt),
+    "task_extraction": (TaskExtraction, build_task_prompt),
+    "recipe_generation": (Recipe, build_recipe_prompt),
 }
 
 
 def main() -> int:
-    if len(sys.argv) != 3 or sys.argv[1] not in MODE:
-        print(f"Usage: python main.py <{'|'.join(MODE)}> <raw_text.txt>")
+    if len(sys.argv) != 2:
+        print(f"Usage: python main.py <raw_text.txt>")
         return 1
-    
-    mode_name = sys.argv[1]
-    model_class, prompt_builder = MODE[mode_name]
-    file_name = sys.argv[2]
-    schema = model_class.model_json_schema()
+
+    file_name = sys.argv[1]
 
     try:
         with open(file_name, "r", encoding="utf-8") as file:
@@ -30,8 +29,36 @@ def main() -> int:
     except FileNotFoundError:
         print(f"Error: file not found: {file_name}")
         return 1
+
+    try:
+        route_decision = route_input(raw_text)
+
+    except RuntimeError as err:
+        print(f"Gemini error: {err}")
+        return 1
+
+    except ValidationError as err:
+        print("Router validation error")
+        print(err)
+        return 1
+
+    if (
+        route_decision.route == "unknown" or
+        route_decision.confidence == "low" or
+        route_decision.needs_clarification
+    ):
+        display_result(route_decision)
+        return 0
     
+    mode_name = route_decision.route
+    if mode_name not in MODE:
+        print("unsupported route")
+        display_result(route_decision)
+        return 1
+    model_class, prompt_builder = MODE[mode_name]
+    schema = model_class.model_json_schema()
     prompt = prompt_builder(raw_text)
+    
     try:
         response = generate_schema_response(prompt, schema)
     except RuntimeError as err:
@@ -43,7 +70,8 @@ def main() -> int:
     except ValidationError:
         print("Error: response does not match schema")
         return 1
-
+    
+    display_result(route_decision)
     display_result(validated_result)
     return 0
 
