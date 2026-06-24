@@ -10,6 +10,7 @@ The program first asks Gemini to classify the input into one of several modes, v
 raw text
 → Gemini router
 → RouteDecision validation
+→ pipeline registry lookup
 → model + prompt selection
 → Gemini structured output
 → Pydantic validation
@@ -37,6 +38,8 @@ multi-mode-router-cli/
   llm_client.py
   prompts.py
   router.py
+  pipeline.py
+  registry.py
   display.py
   samples/
 ```
